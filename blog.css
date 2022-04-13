@@ -1,0 +1,133 @@
+body {
+    background-image: url("images/background.jpeg");
+}
+
+#header_container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-color: gray;
+    opacity: .8;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    font-size: 5vw;
+    width: 30%;
+}
+
+nav {
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+nav li {
+    background-color: #9d9d93;
+    border-radius: 0.5em;
+    list-style-type: none;
+    margin: 0.2em;
+    padding: 0.4em;
+    font-size: 2vw;
+    display: inline;
+}
+
+nav li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#body_container {
+    display: flex;
+}
+
+aside {
+    width: 20%;
+    font-size: 2vw;
+    font-weight: bold;
+    margin-right: 0.5em;
+    background-color: #91B493;
+    opacity: .7;
+    margin-top: 0.5em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section {
+    width: 80%;
+    font-size: 2vw;
+    background-color: white;
+    opacity: .7;
+    margin-top: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+#slideshow-container {
+    display: flex;
+    align-items: center;
+}
+
+#slideshow {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.my-img {
+    display: none;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1/16em solid #ddd;
+}
+
+th {
+    text-align: left;
+    padding: .5em;
+}
+
+td {
+    text-align: left;
+    padding: .5em;
+    word-break: break-all;
+}
+
+footer {
+    width: 100%;
+    margin-top: 0.5em;
+    display: flex;
+    background-color: gray;
+    opacity: .8;
+}
+
+footer div {
+    color: black
+}
+
+@media screen and (max-width: 685px) {
+    aside {
+        display: none;
+    }
+    section {
+        width: 100%;
+        margin-right: 0;
+    }
+}
